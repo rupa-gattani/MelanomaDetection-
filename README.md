@@ -15,24 +15,24 @@
 - **Dataset**: This project uses the **ISIC (International Skin Imaging Collaboration)** dataset, which contains a wide variety of labeled images of skin lesions, including melanoma, benign tumors, and other skin diseases. The dataset is diverse, making it suitable for training a robust model.
 
 ## Conclusions
-- **BaseLineModel**: 
+- <u>**BaseLineModel**:</u>
 * The Baseline Model shows clear signs of overfitting
 * Very high training accuracy (93.47%) but poor validation accuracy (49.44%)
 * Huge gap between training loss (0.11) and validation loss (2.85)
 * This indicates the model memorized the training data but fails to generalize.
   
-- **Dynamic Data Augmentation Model**: 
+- <u>**Dynamic Data Augmentation Model**:</u> 
 * More balanced performance between training (54.52%) and validation (51.23%)
 * Similar loss values between training (1.30) and validation (1.34)
 * However, overall accuracy is lower than desired
 * The model avoids overfitting but may be underperforming
 
-- **Data AugmentorLib Model**: 
+- <u>**Data AugmentorLib Model**: </u>
 * Best Performing model
 * High and relatively close training (86.68%) and validation accuracies (81.66%)
 * This model is able to generalise better while maintaining strong performance
 
-- **Future Work**: Future improvements could include using **transfer learning** with pre-trained models like **VGG16** or **ResNet**, which could help improve model accuracy by leveraging pre-learned features. Additionally, larger datasets and more advanced augmentation techniques may further enhance the model's performance.
+- <u>**Future Work**:</u> Future improvements could include using **transfer learning** with pre-trained models like **VGG16** or **ResNet**, which could help improve model accuracy by leveraging pre-learned features. Additionally, larger datasets and more advanced augmentation techniques may further enhance the model's performance.
 
 ## Technologies Used
 - **TensorFlow** - Version 2.17.1
