@@ -16,7 +16,7 @@
 
 ## Conclusions
 - **BaseLineModel**:
-* The Baseline Model shows clear signs of overfitting
+- The Baseline Model shows clear signs of overfitting
 * Very high training accuracy (93.47%) but poor validation accuracy (49.44%)
 * Huge gap between training loss (0.11) and validation loss (2.85)
 * This indicates the model memorized the training data but fails to generalize.
