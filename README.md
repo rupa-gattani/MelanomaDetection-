@@ -16,21 +16,21 @@
 
 ## Conclusions
 - **BaseLineModel**:
-- The Baseline Model shows clear signs of overfitting
-* Very high training accuracy (93.47%) but poor validation accuracy (49.44%)
-* Huge gap between training loss (0.11) and validation loss (2.85)
-* This indicates the model memorized the training data but fails to generalize.
+1. The Baseline Model shows clear signs of overfitting
+2. Very high training accuracy (93.47%) but poor validation accuracy (49.44%)
+3. Huge gap between training loss (0.11) and validation loss (2.85)
+4. This indicates the model memorized the training data but fails to generalize.
   
 - **Dynamic Data Augmentation Model**: 
-* More balanced performance between training (54.52%) and validation (51.23%)
-* Similar loss values between training (1.30) and validation (1.34)
-* However, overall accuracy is lower than desired
-* The model avoids overfitting but may be underperforming
+1. More balanced performance between training (54.52%) and validation (51.23%)
+2. Similar loss values between training (1.30) and validation (1.34)
+3. However, overall accuracy is lower than desired
+4. The model avoids overfitting but may be underperforming
 
 - **Data AugmentorLib Model**: 
-* Best Performing model
-* High and relatively close training (86.68%) and validation accuracies (81.66%)
-* This model is able to generalise better while maintaining strong performance
+1. Best Performing model
+2. High and relatively close training (86.68%) and validation accuracies (81.66%)
+3. This model is able to generalise better while maintaining strong performance
 
 - **Future Work**: Future improvements could include using **transfer learning** with pre-trained models like **VGG16** or **ResNet**, which could help improve model accuracy by leveraging pre-learned features. Additionally, larger datasets and more advanced augmentation techniques may further enhance the model's performance.
 
